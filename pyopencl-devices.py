@@ -4,6 +4,7 @@
 
 import pyopencl
 
+print()
 for platform in pyopencl.get_platforms():
     for device in platform.get_devices():
         print("Platform: " + platform.name)
